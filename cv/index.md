@@ -15,7 +15,7 @@ B.S., Bioengineering, University of California, Los Angeles
 
 ### Publications
 
-[Find these on my lab's wbsite.](https://asmlab.org/publications/)
+[Find these on my lab's website.](https://asmlab.org/publications/)
 
 ----------------------
 
