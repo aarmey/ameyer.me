@@ -30,5 +30,5 @@ Plasmids are made publically available once sequence verified [through AddGene](
 
 ### Other
 
-- [Faculty application research statement](/public/files/Opensci-FacResearch.pdf)
-- [Faculty application teaching statement](/public/files/Opensci-FacTeaching.pdf)
+- [Faculty application research statement](/public/files/Opensci-FacResearch.pdf) (2016)
+- [Faculty application teaching statement](/public/files/Opensci-FacTeaching.pdf) (2016)
