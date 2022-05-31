@@ -45,6 +45,7 @@ UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 ### Awards
 
+* [UCLA Samueli School of Engineering Northrop Grumman Excellence in Teaching Award](https://samueli.ucla.edu/ucla-engineering-2021-award-recipients/)
 * [Ten to Watch](http://www.amgenscholars.com/alumni/ten-to-watch), Amgen Scholars Foundation
 * [Director's Early Independence Award](http://commonfund.nih.gov/earlyindependence/index), NIH
 * [Siebel Scholar](http://www.siebelscholars.com), Class of 2014
