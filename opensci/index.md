@@ -30,5 +30,8 @@ Plasmids are made publically available once sequence verified [through AddGene](
 
 ### Other
 
+- [Promotion/tenure self-statement](/public/files/Opensci-Promotion-2022.pdf) (2022)
+- [Merit promotion self-statement](/public/files/Opensci-Promotion-2020.pdf) (2020)
+- [Merit promotion self-statement](/public/files/Opensci-Promotion-2018.pdf) (2018)
 - [Faculty application research statement](/public/files/Opensci-FacResearch.pdf) (2016)
 - [Faculty application teaching statement](/public/files/Opensci-FacTeaching.pdf) (2016)
