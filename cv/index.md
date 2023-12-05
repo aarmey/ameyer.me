@@ -21,7 +21,12 @@ B.S., Bioengineering, University of California, Los Angeles
 
 ### Research Experience
 
-<div class="span_2 right">2017 – Present</div>
+<div class="span_2 right">2023 – Present</div>
+**Associate Professor**  
+[Meyer](http://asmlab.org) lab  
+UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu), [Bioinformatics IDP](https://bioinformatics.ucla.edu), [QCBio](https://qcb.ucla.edu)
+
+<div class="span_2 right">2017 – 2023</div>
 **Assistant Professor**  
 [Meyer](http://asmlab.org) lab  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu), [Bioinformatics IDP](https://bioinformatics.ucla.edu), [QCBio](https://qcb.ucla.edu)
@@ -45,6 +50,7 @@ UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 ### Awards
 
+* [Mark Foundation for Cancer Research Emerging Leader Award](https://themarkfoundation.org/portfolio/a-platform-for-systems-serology-of-endogenous-anti-tumor-responses/)
 * [UCLA Samueli School of Engineering Northrop Grumman Excellence in Teaching Award](https://samueli.ucla.edu/ucla-engineering-2021-award-recipients/)
 * [Ten to Watch](http://www.amgenscholars.com/alumni/ten-to-watch), Amgen Scholars Foundation
 * [Director's Early Independence Award](http://commonfund.nih.gov/earlyindependence/index), NIH
