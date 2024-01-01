@@ -14,15 +14,15 @@ tags:
 
 The work from the final portion of my Ph.D. thesis is [online today][1] in [Cell Systems][2], a brand new journal from Cell Press. Though nascent, the journal has already published exciting studies on the [geospatial distribution of bacteria in cities][3], [using CRISPR-Cas9 to rapidly engineer yeast metabolic pathways][4], and [programming synthetic circuits in gut microbiota][5] [^cellsys].
 
-[1]: http://www.cell.com/cell-systems/abstract/S2405-4712(15)00007-1
-[2]: http://www.cell.com/cell-systems/home
-[3]: http://www.cell.com/cell-systems/abstract/S2405-4712(15)00002-2
-[4]: http://www.cell.com/cell-systems/abstract/S2405-4712(15)00003-4
-[5]: http://www.cell.com/cell-systems/abstract/S2405-4712(15)00006-X
+[1]: https://www.cell.com/cell-systems/abstract/S2405-4712(15)00007-1
+[2]: https://www.cell.com/cell-systems/home
+[3]: https://www.cell.com/cell-systems/abstract/S2405-4712(15)00002-2
+[4]: https://www.cell.com/cell-systems/abstract/S2405-4712(15)00003-4
+[5]: https://www.cell.com/cell-systems/abstract/S2405-4712(15)00006-X
 
 In it, we use differential equation modeling to understand how [AXL](https://en.wikipedia.org/wiki/AXL_receptor_tyrosine_kinase) (and very likely the other TAM receptor tyrosine kinases) senses phosphatidylserine (PtdSer)-presenting debris, a long-understood core function of the family. This was by far the most challenging undertaking of my Ph.D.--from utilizing the computational techniques to carefully designing the experimental measurements at each stage. The experience has taught me an enormous amount about the purpose and power of systems biology[^odefoot].
 
-[Shou et. al.](http://elifesciences.org/content/4/e07158) very recently described it best:
+[Shou et. al.](https://elifesciences.org/content/4/e07158) very recently described it best:
 
 > When scientists want to explain some aspect of nature, they tend to make observations of the natural world or collect experimental data, and then extract regularities or patterns from these observations and data, possibly using some form of statistical analysis. Characterizing these regularities or patterns can help scientists to generate new hypotheses, but statistical correlations on their own do not constitute understanding. Rather, it is when a mechanistic explanation of the regularities or patterns is developed from underlying principles, while relying on as few assumptions as possible, that a theory is born. A scientific theory thus provides a unifying framework that can explain a large class of empirical data. A scientific theory is also capable of making predictions that can be tested experimentally. Moreover, a theory can be refined in the light of new experimental data, and then be used to make new predictions, which can also be tested: over time this cycle of prediction, testing and refinement should result in a more robust and quantitative theory. Thus, the union of empirical and quantitative theoretical work should be a hallmark of any scientific discipline.
 
@@ -36,4 +36,4 @@ We need better methods at every step of this type of modeling, from construction
 
 [^odefoot]: Ironically, I had to be convinced that such a project would be challenging enough to be interesting. After all, we learned about ODE modeling in undergraduate classes, it's been applied for decades, and I would only be considering two proteins! Surely in the era of big data, a few rate parameters could be thrown together in a weekend and output some simulations of receptor activation. And rather than simulate a phenomena, why not just measure it experimentally?
 
-[^toolfoot]: Of course there are huge efforts to develop better tools for these purposes, but these remain difficult problems. Notable promising directions are rule-based models (such as [BioNetGen](http://bionetgen.org/index.php/Main_Page)) and brave attempts to try and accelerate Markov Chain Monte Carlo (e.g. [DREAM](http://dream.r-forge.r-project.org)). Truly rigorous modeling still remains a challenge even for the computationally adept however. It would be wonderful to have a rule-based framework that handled rigorous parameterization, spatial modeling through [finite differences](https://en.wikipedia.org/wiki/Finite_difference), compile-time [detailed balance](https://en.wikipedia.org/wiki/Detailed_balance), and [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) (since all of these systems are stiff of course), but such a tool would be a considerable computational undertaking.
+[^toolfoot]: Of course there are huge efforts to develop better tools for these purposes, but these remain difficult problems. Notable promising directions are rule-based models (such as [BioNetGen](https://bionetgen.org/index.php/Main_Page)) and brave attempts to try and accelerate Markov Chain Monte Carlo (e.g. [DREAM](https://dream.r-forge.r-project.org)). Truly rigorous modeling still remains a challenge even for the computationally adept however. It would be wonderful to have a rule-based framework that handled rigorous parameterization, spatial modeling through [finite differences](https://en.wikipedia.org/wiki/Finite_difference), compile-time [detailed balance](https://en.wikipedia.org/wiki/Detailed_balance), and [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) (since all of these systems are stiff of course), but such a tool would be a considerable computational undertaking.
