@@ -52,7 +52,7 @@ UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 * [Mark Foundation for Cancer Research Emerging Leader Award](https://themarkfoundation.org/portfolio/a-platform-for-systems-serology-of-endogenous-anti-tumor-responses/)
 * [UCLA Samueli School of Engineering Northrop Grumman Excellence in Teaching Award](https://samueli.ucla.edu/ucla-engineering-2021-award-recipients/)
-* [Ten to Watch](https://www.amgenscholars.com/alumni/ten-to-watch), Amgen Scholars Foundation
+* [Ten to Watch](https://amgenscholars.com/ten-to-watch/), Amgen Scholars Foundation
 * [Director's Early Independence Award](https://commonfund.nih.gov/earlyindependence/index), NIH
 * [Siebel Scholar](https://www.siebelscholars.com), Class of 2014
 * Whitaker Health Sciences Fund Fellowship, MIT
