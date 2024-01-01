@@ -1,1 +1,1 @@
-# [Personal website of Aaron Meyer](http://ameyer.me)
+# [Personal website of Aaron Meyer](https://ameyer.me)
