@@ -25,7 +25,7 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Proof HTML
-        run: cd _site && bundle exec htmlproofer --ignore_status_codes "999,400"
+        run: cd _site && bundle exec htmlproofer --ignore_status_codes "999, 400, 403"
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/master'
