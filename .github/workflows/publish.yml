@@ -2,33 +2,37 @@ name: Jekyll publish
 
 on:
   push
-    
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   jekyll:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      # Use GitHub Actions' cache to shorten build times and decrease load on servers
-      - uses: actions/cache@v1
+      - name: Install ruby
+        uses: ruby/setup-ruby@v1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          ruby-version: '3.2'
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-      # Standard usage
-      - uses: lemonarc/jekyll-action@1.0.0
+      - name: Build jekyll
+        run: bundle exec jekyll build
 
-      #- uses: chabad360/htmlproofer@master
-      #  with:
-      #    directory: "_site"
-      #    arguments: --http-status-ignore "999,400"
+      - name: Proof HTML
+        run: cd _site && bundle exec htmlproofer --ignore_status_codes "999,400"
 
-      - name: Deploy 🚀
+      - name: Upload artifact
         if: github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: actions/upload-pages-artifact@v2
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: _site # The folder the action should deploy.
+          path: 'website/_site'
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/master'
+        id: deployment
+        uses: actions/deploy-pages@v2
