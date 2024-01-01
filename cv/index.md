@@ -23,27 +23,27 @@ B.S., Bioengineering, University of California, Los Angeles
 
 <div class="span_2 right">2023 – Present</div>
 **Associate Professor**  
-[Meyer](http://asmlab.org) lab  
+[Meyer](https://asmlab.org) lab  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu), [Bioinformatics IDP](https://bioinformatics.ucla.edu), [QCBio](https://qcb.ucla.edu)
 
 <div class="span_2 right">2017 – 2023</div>
 **Assistant Professor**  
-[Meyer](http://asmlab.org) lab  
+[Meyer](https://asmlab.org) lab  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu), [Bioinformatics IDP](https://bioinformatics.ucla.edu), [QCBio](https://qcb.ucla.edu)
 
 <div class="span_2 right">2014 – 2017</div>
 **Principal Investigator & Research Fellow**  
-[Meyer](http://asmlab.org) lab  
+[Meyer](https://asmlab.org) lab  
 MIT, Koch Institute for Integrative Cancer Research
 
 <div class="span_2 right">2009 – 2014</div>
 **Graduate Researcher**  
-[Douglas Lauffenburger](http://web.mit.edu/dallab/) & [Frank Gertler](https://biology.mit.edu/people/frank_gertler) labs  
+[Douglas Lauffenburger](https://web.mit.edu/dallab/) & [Frank Gertler](https://biology.mit.edu/people/frank_gertler) labs  
 MIT, Department of Biological Engineering
 
 <div class="span_2 right">2006 – 2009</div>
 **Undergraduate researcher**  
-[Daniel Kamei](http://kameilab.seas.ucla.edu) lab  
+[Daniel Kamei](https://kameilab.seas.ucla.edu) lab  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 --------------------
@@ -52,15 +52,15 @@ UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 * [Mark Foundation for Cancer Research Emerging Leader Award](https://themarkfoundation.org/portfolio/a-platform-for-systems-serology-of-endogenous-anti-tumor-responses/)
 * [UCLA Samueli School of Engineering Northrop Grumman Excellence in Teaching Award](https://samueli.ucla.edu/ucla-engineering-2021-award-recipients/)
-* [Ten to Watch](http://www.amgenscholars.com/alumni/ten-to-watch), Amgen Scholars Foundation
-* [Director's Early Independence Award](http://commonfund.nih.gov/earlyindependence/index), NIH
-* [Siebel Scholar](http://www.siebelscholars.com), Class of 2014
+* [Ten to Watch](https://amgenscholars.com/ten-to-watch/), Amgen Scholars Foundation
+* [Director's Early Independence Award](https://commonfund.nih.gov/earlyindependence/index), NIH
+* [Siebel Scholar](https://www.siebelscholars.com), Class of 2014
 * Whitaker Health Sciences Fund Fellowship, MIT
 * Repligen Fellowship in Cancer Research, Koch Institute
-* [Frontier Research Program Initiator Award](http://ki.mit.edu/approach/frontier), Koch Institute
+* [Frontier Research Program Initiator Award](https://ki.mit.edu/approach/frontier), Koch Institute
 * Breast Cancer Research Predoctoral Fellowship, Department of Defense
-* [Graduate Research Fellowship](http://www.nsfgrfp.org), National Science Foundation
-* [Momenta Presidential Fellowship](http://web.mit.edu/provost/presfellow/), MIT
+* [Graduate Research Fellowship](https://www.nsfgrfp.org), National Science Foundation
+* [Momenta Presidential Fellowship](https://web.mit.edu/provost/presfellow/), MIT
 
 --------------------
 
@@ -77,7 +77,7 @@ UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 <div class="span_2 right">2015 – 2016</div>
-**Faculty of the [Citizen Science Program](http://citizenscience.bard.edu)**  
+**Faculty of the [Citizen Science Program](https://citizenscience.bard.edu)**  
 Bard College
 
 <div class="span_2 right">Fall 2010</div>

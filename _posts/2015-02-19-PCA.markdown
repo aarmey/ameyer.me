@@ -8,4 +8,4 @@ tags:
 - statistics
 ---
 
-[Principal components analysis](http://en.wikipedia.org/wiki/Principal_component_analysis) is an essential tool when working with multidimensional data, yet it can be difficult to develop an intuitive understanding of what the method is doing. [This tool](http://setosa.io/ev/principal-component-analysis/) from [Victor Powell](https://twitter.com/vicapow) really helps picture the process, as it lets you push and pull points around and immediately see the effect on the data output.
+[Principal components analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) is an essential tool when working with multidimensional data, yet it can be difficult to develop an intuitive understanding of what the method is doing. [This tool](https://setosa.io/ev/principal-component-analysis/) from [Victor Powell](https://twitter.com/vicapow) really helps picture the process, as it lets you push and pull points around and immediately see the effect on the data output.
