@@ -96,4 +96,4 @@ MIT, Department of Biological Engineering
 * Coordinator, MIT Biological Engineering Graduate Student Board (2010 – 2013)
 * Member, MIT Biological Engineering Retreat Organizing Committee (2010 – 2012)
 
-<a href="https://aarmey.github.io/CV/Meyer_CV.pdf"><svg class="svg-icon"><use xlink:href="#fa-pdf"></use></svg></a>
+<a href="https://asmlab.org/public/CV.pdf"><svg class="svg-icon"><use xlink:href="#fa-pdf"></use></svg></a>
