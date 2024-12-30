@@ -29,11 +29,10 @@ jobs:
         run: cd _site && bundle exec htmlproofer --ignore_status_codes "999, 400, 403"
 
       - name: Upload artifact
-        if: github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v2
         with:
           path: '_site'
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         id: deployment
         uses: actions/deploy-pages@v2
