@@ -1,95 +1,92 @@
-/*	12 COLUMN : RESPONSIVE GRID SYSTEM
-	DEVELOPER : DENIS LEBLANC
-	URL : https://responsive.gs
-	VERSION : 3.0
-	LICENSE : GPL & MIT */
+/* Modern 12-Column Grid System */
 
-
-/* 	SET ALL ELEMENTS TO BOX-SIZING : BORDER-BOX */
-* { 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	*behavior: url(/scripts/boxsizing.htc); 
-	/*	If you need support for IE7 and lower make 
-		sure the boxsizing.htc file is linked properly.
-		More info here:  https://github.com/Schepp/box-sizing-polyfill */
+:root {
+  --container-width: 800px;
+  --gutter: 2%;
 }
 
-
-/*	MAIN CONTAINER 
-	Set the width to whatever you want the width of your site to be. */
-.container { 
-	max-width: 800px;
-	margin: 0 auto; 
+/* Base Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-
-
-/*	SELF CLEARING FLOATS - CLEARFIX METHOD */
-.container:after,
-.row:after, 
-.col:after, 
-.clr:after, 
-.group:after { 
-	content: ""; 
-	display: table; 
-	clear: both; 
+/* Container */
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-/* 	DEFAULT ROW STYLES 
-	Set bottom padding according to preference */
-.row { padding-bottom: 0em;
-}
-			
-								  
-/* DEFAULT COLUMN STYLES */
-.col { 
-	display: block;
-	float: left;
-	width: 100%;
+/* Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
-@media ( min-width : 768px ) {
-	
-	.gutters .col {
-		margin-left: 2%;
-	}
-	
-	.gutters .col:first-child { 
-		margin-left: 0; 
-	}
+/* Basic Column */
+.col {
+  width: 100%;
+  padding: 0.5rem;
 }
 
+/* Grid System */
+@media (min-width: 768px) {
+  /* Regular columns */
+  .span_1 { width: calc(100% / 12 * 1); }
+  .span_2 { width: calc(100% / 12 * 2); }
+  .span_3 { width: calc(100% / 12 * 3); }
+  .span_4 { width: calc(100% / 12 * 4); }
+  .span_5 { width: calc(100% / 12 * 5); }
+  .span_6 { width: calc(100% / 12 * 6); }
+  .span_7 { width: calc(100% / 12 * 7); }
+  .span_8 { width: calc(100% / 12 * 8); }
+  .span_9 { width: calc(100% / 12 * 9); }
+  .span_10 { width: calc(100% / 12 * 10); }
+  .span_11 { width: calc(100% / 12 * 11); }
+  .span_12 { width: 100%; }
 
+  /* Guttered columns */
+  .gutters {
+    margin: 0 calc(var(--gutter) * -0.5);
+  }
 
+  .gutters .col {
+    padding: 0 calc(var(--gutter) * 0.5);
+  }
+}
 
-/*	COLUMN WIDTH ON DISPLAYS +768px 
-	You might need to play with media queries here to suite your design. */
-@media ( min-width : 768px ) {
-	.span_1 { width: 8.33333333333%; }
-	.span_2 { width: 16.6666666667%; }
-	.span_3 { width: 25%; }
-	.span_4 { width: 33.3333333333%; }
-	.span_5 { width: 41.6666666667%; }
-	.span_6 { width: 50%; }
-	.span_7 { width: 58.3333333333%; }
-	.span_8 { width: 66.6666666667%; }
-	.span_9 { width: 75%; }
-	.span_10 { width: 83.3333333333%; }
-	.span_11 { width: 91.6666666667%; }
-	.span_12 { width: 100%; }
-	
-	.gutters .span_1 { width: 6.5%; }
-	.gutters .span_2 { width: 15.0%; }
-	.gutters .span_3 { width: 23.5%; }
-	.gutters .span_4 { width: 32.0%; }
-	.gutters .span_5 { width: 40.5%; }
-	.gutters .span_6 { width: 49.0%; }
-	.gutters .span_7 { width: 57.5%; }
-	.gutters .span_8 { width: 66.0%; }
-	.gutters .span_9 { width: 74.5%; }
-	.gutters .span_10 { width: 83.0%; }
-	.gutters .span_11 { width: 91.5%; }
-	.gutters .span_12 { width: 100%; }
+/* CSS Grid Alternative */
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Auto-grid for equal width columns */
+.auto-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
