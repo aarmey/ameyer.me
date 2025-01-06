@@ -9,8 +9,31 @@ title: Page Not Found
     {% include head.html %}
   </head>
   <body>
+    <style>
+    .drop-in {
+      animation: drop-in 0.5s ease forwards;
+    }
+
+    @keyframes drop-in {
+      from {
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .drop-in {
+        animation: none;
+        opacity: 1;
+      }
+    }
+    </style>
     <div class="container not-found">
-      <h1 class="bounceInDown animated">404</h1>
+      <h1 class="drop-in">404</h1>
       <p>
         Oh no! You're lost. Or I'm lost. Someone's lost.
       </p>
