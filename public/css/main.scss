@@ -4,6 +4,7 @@
 @use 'syntax';
 @use "barefoot";
 @use "responsive.gs.12col";
+@use "sass:color";
 
 
 $site-background-color: #FCFCFC;
@@ -48,7 +49,7 @@ hr,
 blockquote {
   padding: 0 20px;
   margin-top: 20px;
-  border-left: 5px solid darken($site-background-color, 15%);
+  border-left: 5px solid color.adjust($site-background-color, $lightness: -15%);
 }
 
 ul, ol {
@@ -95,7 +96,7 @@ table {
   }
 
   thead {
-    background-color: darken($site-background-color, 10%);
+    background-color: color.adjust($site-background-color, $lightness: -10%);
   }
 }
 
