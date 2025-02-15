@@ -1,7 +1,10 @@
 ---
 ---
 
-@import 'syntax';
+@use 'syntax';
+@use "barefoot";
+@use "responsive.gs.12col";
+
 
 $site-background-color: #FCFCFC;
 
@@ -305,7 +308,3 @@ dl,
     background-position: center center;
   }
 }
-
-
-@use "barefoot";
-@use "responsive.gs.12col";
