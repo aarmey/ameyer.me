@@ -117,20 +117,20 @@ footer {
 }
 
 /*============================================================================*/
-.azul { a { color: darken($azul-accent-color, 15%);
+.azul { a { color: color.adjust($azul-accent-color, $lightness: -15%);
     &:hover { color: $azul-accent-color;
 }}}
 
 .ruby { a { color: $ruby-accent-color;
-    &:hover { color: darken($ruby-accent-color, 20%);
+    &:hover { color: color.adjust($ruby-accent-color, $lightness: -20%);
 }}}
 
 .amber { a { color: $amber-accent-color;
-    &:hover { color: darken($amber-accent-color, 20%);
+    &:hover { color: color.adjust($amber-accent-color, $lightness: -20%);
 }}}
 
 .avocado { a { color: $avocado-accent-color;
-    &:hover { color: darken($avocado-accent-color, 20%);
+    &:hover { color: color.adjust($avocado-accent-color, $lightness: -20%);
 }}}
 
 /*----------------------------------------------------------------------------*/
