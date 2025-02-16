@@ -64,36 +64,26 @@ UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 --------------------
 
-### Teaching Experience
+### Teaching
 
 <div class="span_2 right">2018 – Present</div>
-**Instructor**  
-[BE 167L: Bioengineering Lab](https://github.com/aarmey/167L-materials)  
+**[BE 175/275: Machine learning & data-driven modeling in bioengineering](https://aarmey.github.io/ml-for-bioe/)**  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
-<div class="span_2 right">2018 – Present</div>
-**Instructor**  
-[BE 188: Machine learning & data-driven modeling in bioengineering](https://aarmey.github.io/ml-for-bioe/)  
+<div class="span_2 right">2018 – 2024</div>
+**BE 167L: Bioengineering Lab**  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 <div class="span_2 right">2015 – 2016</div>
-**Faculty of the [Citizen Science Program](https://citizenscience.bard.edu)**  
+**[Citizen Science Program](https://citizenscience.bard.edu)**  
 Bard College
-
-<div class="span_2 right">Fall 2010</div>
-**Teaching Assistant**  
-20.110: Thermodynamics of Biomolecular Systems  
-MIT, Department of Biological Engineering
 
 --------------------
 
 ### Professional Service
 
-* Co-Chair, Association of Cancer Systems Biologists (2017 – Present)
-* Graduate Research Fellowship Program Review Panelist, National Science Foundation, 2016
-* Meeting Organizer & Member, Association of Cancer Systems Biologists (2015 – 2016)
-* Member, Biomedical Engineering Society (2010 – Present)
-* Coordinator, MIT Biological Engineering Graduate Student Board (2010 – 2013)
-* Member, MIT Biological Engineering Retreat Organizing Committee (2010 – 2012)
+* Member & CFO, [Association of Cancer Systems Biologists](https://sacbmeeting.org/) (2017 – Present)
+* Member, [BME UNITE](https://www.bmeunite.org/) (2020 – Present)
+* Member, [Biomedical Engineering Society](https://www.bmes.org/) (2010 – Present)
 
 <a href="https://asmlab.org/public/CV.pdf"><svg class="svg-icon"><use xlink:href="#fa-pdf"></use></svg></a>
