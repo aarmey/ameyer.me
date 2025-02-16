@@ -21,7 +21,7 @@ B.S., Bioengineering, University of California, Los Angeles
 
 ### Research Experience
 
-<div class="span_2 right">2023 – Present</div>
+<div class="span_2 right">2023 – </div>
 **Associate Professor**  
 [Meyer](https://asmlab.org) lab  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu), [Bioinformatics IDP](https://bioinformatics.ucla.edu), [QCBio](https://qcb.ucla.edu)
@@ -35,16 +35,6 @@ UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu), [Bioinformati
 **Principal Investigator & Research Fellow**  
 [Meyer](https://asmlab.org) lab  
 MIT, Koch Institute for Integrative Cancer Research
-
-<div class="span_2 right">2009 – 2014</div>
-**Graduate Researcher**  
-[Douglas Lauffenburger](https://web.mit.edu/dallab/) & [Frank Gertler](https://biology.mit.edu/people/frank_gertler) labs  
-MIT, Department of Biological Engineering
-
-<div class="span_2 right">2006 – 2009</div>
-**Undergraduate researcher**  
-[Daniel Kamei](https://kameilab.seas.ucla.edu) lab  
-UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 --------------------
 
@@ -66,7 +56,7 @@ UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 ### Teaching
 
-<div class="span_2 right">2018 – Present</div>
+<div class="span_2 right">2018 – </div>
 **[BE 175/275: Machine learning & data-driven modeling in bioengineering](https://aarmey.github.io/ml-for-bioe/)**  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
