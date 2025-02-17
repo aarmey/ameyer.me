@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Folding our knowledge in with the data—where systems biology could be headed"
+title:  "Folding knowledge in with data—where systems biology could be headed"
 date:   2020-01-24 08:00:00
 categories:
 - science
