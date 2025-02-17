@@ -9,17 +9,18 @@ layout: default
 <div class="bundle row gutters">
     <div class="posts-by-year col span_12">
 
-
-{% for post in site.posts %}
-
-  <article class="single row gutters">
-    <h3><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_10">{{ post.title }}</a></h3>
-    <div class="post-date col span_2">
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %d, %Y" }}</time>
-    </div>
-  </article>
-
-{% endfor %}
+  <ul class="posts">
+    {% for post in site.posts %}{% if post.title != null %}
+    <li itemscope>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+            <span class="entry-date">
+              <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                {{ post.date | date: "%B %d, %Y" }}
+              </time>
+          </span> 
+        </li>
+    {% endif %}{% endfor %}
+  </ul>
 
 </div></div>
 
