@@ -10,7 +10,9 @@ plugins:
   - jekyll-sitemap
 
 jekyll-archives:
-  enabled: all
+  enabled:
+    - year
+    - category
   layouts:
     year: year-archives
     tag: tag-archives
@@ -19,9 +21,6 @@ jekyll-archives:
     day: day-archives
   permalinks:
     year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
     category: '/:name/'
 
 exclude:
