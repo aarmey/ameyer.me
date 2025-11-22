@@ -1,9 +1,9 @@
 url: "https://ameyer.me"
-baseurl:
+baseurl: ""
 
 sass:
   sass_dir: public/css
-  style: :compressed
+  style: compressed
 
 plugins:
   - jekyll-sitemap

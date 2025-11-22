@@ -1,7 +1,6 @@
 name: Jekyll publish
 
-on:
-  push
+on: push
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -18,7 +17,7 @@ jobs:
       - name: Install ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.4'
+          ruby-version: "3.4"
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
       - name: Build jekyll
@@ -39,7 +38,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: "_site"
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
         id: deployment
