@@ -1,4 +1,4 @@
-name: Jekyll publish
+name: Hugo publish
 
 on: push
 
@@ -9,19 +9,19 @@ permissions:
   id-token: write
 
 jobs:
-  jekyll:
+  hugo:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v6
 
-      - name: Install ruby
-        uses: ruby/setup-ruby@v1
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          ruby-version: "3.4"
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          hugo-version: "latest"
+          extended: true
 
-      - name: Build jekyll
-        run: bundle exec jekyll build
+      - name: Build Hugo
+        run: hugo --config hugo.yaml --cleanDestinationDir
 
       - name: Restore lychee cache
         uses: actions/cache@v5
@@ -33,14 +33,14 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: false
-          args: "--base ${{ github.workspace }}/_site --root-dir ${{ github.workspace }}/_site --exclude '^#' --exclude '^%23' --accept '100..=103,200..=299,403' --cache --max-cache-age 14d _site"
+          args: "--base ${{ github.workspace }}/public --root-dir ${{ github.workspace }}/public --exclude '^#' --exclude '^%23' --accept '100..=103,200..=299,403' --cache --max-cache-age 14d public"
 
       - name: Archive artifact
         shell: sh
         run: |
           tar \
             --dereference --hard-dereference \
-            --directory _site \
+            --directory public \
             -cvf "$RUNNER_TEMP/artifact.tar" \
             --exclude=.git \
             --exclude=.github \

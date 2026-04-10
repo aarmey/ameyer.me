@@ -1,0 +1,24 @@
+{{- printf "<?xml version=\"1.0\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ hugo.Data.brume.name }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <atom:link href="{{ .Site.BaseURL }}index.xml" rel="self" type="application/rss+xml" />
+    <description>{{ hugo.Data.brume.description }}</description>
+    <language>en-us</language>
+    <pubDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+
+    {{ range first 10 (where .Site.RegularPages "Type" "posts") }}
+      <item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+        <author>{{ hugo.Data.brume.email }} ({{ hugo.Data.brume.author }})</author>
+        <description>{{ .Content | html }}</description>
+        <guid isPermaLink="true">{{ .Permalink }}</guid>
+      </item>
+    {{ end }}
+
+  </channel>
+</rss>

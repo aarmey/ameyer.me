@@ -1,0 +1,48 @@
+<!-- meta information -->
+<meta charset="utf-8">
+<meta name="description" {{ if .IsHome }}
+      content="{{ hugo.Data.brume.description }}" {{ else }}
+      content="{{ .Content | plainify | truncate 120 }}" {{ end }}>
+<meta name="author" content="{{ hugo.Data.brume.author }}">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- title -->
+<title>{{ .Title }} &middot; {{ hugo.Data.brume.name }}</title>
+
+<!-- icons -->
+<link rel="shortcut icon" href="/public/images/favicon.ico" />
+
+<!-- stylesheets -->
+{{ $syntaxCSS := resources.Get "css/_syntax.scss" | toCSS (dict "outputStyle" "compressed") }}
+{{ $barefootCSS := resources.Get "css/barefoot.scss" | toCSS (dict "outputStyle" "compressed") }}
+{{ $gridCSS := resources.Get "css/_responsive.gs.12col.scss" | toCSS (dict "outputStyle" "compressed") }}
+{{ $mainCSS := resources.Get "css/main.scss" | toCSS (dict "outputStyle" "compressed") }}
+<link rel="stylesheet" href="{{ $syntaxCSS.RelPermalink }}">
+<link rel="stylesheet" href="{{ $barefootCSS.RelPermalink }}">
+<link rel="stylesheet" href="{{ $gridCSS.RelPermalink }}">
+<link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
+
+<!-- bigfoot -->
+<script type="text/javascript" src="/public/js/barefoot.min.js"></script>
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&amp;subset=latin-ext">
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+<!-- feed links -->
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ hugo.Data.brume.name }}">
