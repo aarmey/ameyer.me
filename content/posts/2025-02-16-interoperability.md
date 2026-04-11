@@ -1,5 +1,4 @@
 ---
-
 title:  "A new generation of open tools"
 date:   2025-02-16 08:00:00
 slug: interoperability

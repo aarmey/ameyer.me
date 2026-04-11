@@ -15,9 +15,9 @@
 <link rel="shortcut icon" href="/images/favicon.ico" />
 
 <!-- stylesheets -->
-{{ $syntaxCSS := resources.Get "css/_syntax.scss" | toCSS (dict "outputStyle" "compressed") }}
+{{ $syntaxCSS := resources.Get "css/syntax.scss" | toCSS (dict "outputStyle" "compressed") }}
 {{ $barefootCSS := resources.Get "css/barefoot.scss" | toCSS (dict "outputStyle" "compressed") }}
-{{ $gridCSS := resources.Get "css/_responsive.gs.12col.scss" | toCSS (dict "outputStyle" "compressed") }}
+{{ $gridCSS := resources.Get "css/grid.scss" | toCSS (dict "outputStyle" "compressed") }}
 {{ $mainCSS := resources.Get "css/main.scss" | toCSS (dict "outputStyle" "compressed") }}
 <link rel="stylesheet" href="{{ $syntaxCSS.RelPermalink }}">
 <link rel="stylesheet" href="{{ $barefootCSS.RelPermalink }}">

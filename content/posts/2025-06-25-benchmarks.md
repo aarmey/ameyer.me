@@ -1,5 +1,4 @@
 ---
-
 title:  "Systems biology and AI in biology need to define their goals through benchmarks"
 date:   2025-06-25 08:00:00
 slug: benchmarks
