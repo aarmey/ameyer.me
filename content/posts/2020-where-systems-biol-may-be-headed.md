@@ -1,9 +1,7 @@
 ---
-
 title:  "Folding knowledge in with data—where systems biology could be headed"
 date:   2020-01-24 08:00:00
 slug: where-systems-biol-may-be-headed
-url: /science/2020/01/24/where-systems-biol-may-be-headed/
 categories:
 - science
 tags:

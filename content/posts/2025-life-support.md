@@ -2,7 +2,6 @@
 title:  "Caring for science that is on life support"
 date:   2025-05-20 08:00:00
 slug: life-support
-url: /science/2025/05/20/life-support/
 categories:
 - science
 tags:

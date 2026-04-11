@@ -2,7 +2,6 @@
 title:  'Bridging the Gap: A Review of "Mesoscale Modules as Fundamental Units of Tissue Function"'
 date:   2026-01-04 08:00:00
 slug: multicellular
-url: /science/2026/01/04/multicellular/
 categories:
 - science
 tags:

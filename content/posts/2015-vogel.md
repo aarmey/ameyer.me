@@ -2,7 +2,6 @@
 title:  The Bad Luck of Improper Data Interpretation
 date:   2015-01-02 12:32:00
 slug: vogel
-url: /science/2015/01/02/vogel/
 categories: science
 tags:
 - science

@@ -1,9 +1,7 @@
 ---
-
 title:  "Linus Pauling on involvement in politics"
 date:   2017-03-14 11:00:00
 slug: pauling-politics
-url: /politics/2017/03/14/pauling-politics/
 categories:
 - politics
 tags:

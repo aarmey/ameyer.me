@@ -1,9 +1,7 @@
 ---
-
 title:  "Decoding cancer cells' molecular communication using systems biology"
 date:   2016-12-03 15:00:00
 slug: scilife-essay
-url: /science/2016/12/03/scilife-essay/
 categories:
 - science
 tags:

@@ -1,9 +1,7 @@
 ---
-
 title:  "We need a renewed focus on our own cancer antibody responses"
 date:   2021-02-14 08:00:00
 slug: endo-abs
-url: /science/2021/02/14/endo-abs/
 categories:
 - science
 tags:

@@ -1,9 +1,7 @@
 ---
-
 title:  "An Approach (and Template) for Reproducible Proposal Writing"
 date:   2017-01-16 16:00:00
 slug: proposal-writing
-url: /science/2017/01/16/proposal-writing/
 categories:
 - science
 tags:

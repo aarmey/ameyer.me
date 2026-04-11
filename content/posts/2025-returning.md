@@ -1,9 +1,7 @@
 ---
-
 title:  "Returning to blogging"
 date:   2025-02-15 08:00:00
 slug: returning
-url: /personal/2025/02/15/returning/
 categories:
 - personal
 tags:

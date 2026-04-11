@@ -2,7 +2,6 @@
 title:  "A new generation of open tools"
 date:   2025-02-16 08:00:00
 slug: interoperability
-url: /tech/2025/02/16/interoperability/
 categories:
 - tech
 tags:
