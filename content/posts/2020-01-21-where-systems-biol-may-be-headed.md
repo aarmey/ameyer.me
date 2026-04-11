@@ -26,7 +26,7 @@ $$ f(x, \hat{\beta}) $$
 
 Modeling provides benefits beyond prediction, including hypothesis testing, communication, interpretation, and visualization. With these competing goals in mind we roughly organized the various methods in our toolbox:
 
-![Our toolkit of models.](/public/images/models-plot.svg)
+![Our toolkit of models.](/images/models-plot.svg)
 
 This helped us identify a couple features of the landscape. First, our choices sit along some front of a tradeoff between explainability/interpretability and prediction performance/flexibility. This is not a new idea—much has been written about this tradeoff. Second, explainable/interpretable models make strong assumptions/expectations about the structure of the data.
 

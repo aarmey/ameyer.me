@@ -12,7 +12,7 @@
 <title>{{ .Title }} &middot; {{ hugo.Data.brume.name }}</title>
 
 <!-- icons -->
-<link rel="shortcut icon" href="/public/images/favicon.ico" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
 
 <!-- stylesheets -->
 {{ $syntaxCSS := resources.Get "css/_syntax.scss" | toCSS (dict "outputStyle" "compressed") }}
@@ -25,7 +25,7 @@
 <link rel="stylesheet" href="{{ $mainCSS.RelPermalink }}">
 
 <!-- bigfoot -->
-<script type="text/javascript" src="/public/js/barefoot.min.js"></script>
+<script type="text/javascript" src="/js/barefoot.min.js"></script>
 
 <!-- Google fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&amp;subset=latin-ext">
