@@ -1,0 +1,52 @@
+{{ define "main" }}
+<h1 class="category">Archive</h1>
+
+<section class="archive">
+
+<div class="bundle row gutters">
+    <div class="posts-by-year col span_12">
+
+  <ul class="posts">
+    {{ range (where .Site.RegularPages "Type" "posts") }}{{ if .Title }}
+    <li itemscope>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="entry-date">
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}" itemprop="datePublished">
+                {{ .Date.Format "January 02, 2006" }}
+              </time>
+          </span>
+        </li>
+    {{ end }}{{ end }}
+  </ul>
+
+</div></div>
+
+
+<div id="tags">
+  <ul class="tag-box inline">
+  {{ range .Site.Taxonomies.tags.Alphabetical }}
+    <li><a href="#{{ .Page.Title | urlize }}-ref">{{ .Page.Title }} <span>{{ len .Pages }}</span></a></li>
+  {{ end }}
+  </ul>
+  <br />
+
+  {{ range .Site.Taxonomies.tags.Alphabetical }}
+  <h3 id="{{ .Page.Title | urlize }}-ref">{{ .Page.Title }}</h3>
+  <ul class="posts">
+    {{ range .Pages }}{{ if .Title }}
+    <li itemscope>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+           <span class="entry-date">
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}" itemprop="datePublished">
+                {{ .Date.Format "January 02, 2006" }}
+              </time>
+          </span>
+       </li>
+    {{ end }}{{ end }}
+  </ul>
+  {{ end }}
+</div>
+
+
+</section>
+{{ end }}

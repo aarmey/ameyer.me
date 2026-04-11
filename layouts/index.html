@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="single row gutters">
+
+<div class="col span_10">
+{{ .Content }}
+</div>
+
+</div>
+
+
+<section class="archive">
+
+  <div class="bundle row gutters">
+
+{{ range first 2 (where .Site.RegularPages "Type" "posts") }}
+
+  <article class="single row gutters">
+    <h3><a href="{{ .RelPermalink }}" title="{{ .Title }}" class="col span_10">{{ .Title }}</a></h3>
+    <div class="post-date col span_2">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
+    </div>
+    <div class="col span_12">
+      {{ .Content }}
+    </div>
+  </article>
+
+{{ end }}
+
+
+<ul class="posts">
+  {{ range after 2 (where .Site.RegularPages "Type" "posts") }}{{ if .Title }}
+  <li itemscope>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <span class="entry-date">
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}" itemprop="datePublished">
+              {{ .Date.Format "January 02, 2006" }}
+            </time>
+        </span>
+      </li>
+  {{ end }}{{ end }}
+</ul>
+
+
+</div>
+
+
+<div><a href="/archive/" title="Archives" class="col span_12">Archives</a></div>
+
+</section>
+{{ end }}

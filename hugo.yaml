@@ -1,0 +1,22 @@
+baseURL: "https://ameyer.me"
+languageCode: "en-us"
+title: "Ameyer.me"
+disableHugoGeneratorInject: true
+
+taxonomies:
+  tag: tags
+  category: categories
+
+permalinks:
+  posts: "/:year/:month/:day/:slug/"
+
+outputs:
+  home: ["HTML", "RSS"]
+  section: []
+  taxonomy: []
+  term: []
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

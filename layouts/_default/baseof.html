@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "icons.html" . }}
+
+    <div class="container azul">
+      <header class="top row gutters">
+        <div class="col span_2 center">
+          <a href="{{ .Site.BaseURL }}" id="logo" title="{{ hugo.Data.brume.name }}"
+             style="background-image: url(/images/logo.png);"></a>
+        </div>
+        {{ partial "navigation.html" . }}
+      </header>
+
+      {{ block "main" . }}{{ end }}
+
+      <footer>
+        <p>
+          by Aaron Meyer <br /> me@ameyer.me <br /><br />
+
+          <a href="https://github.com/aarmey"><svg class="svg-icon"><use xlink:href="#fa-github"></use></svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="/index.xml"><svg class="svg-icon"><use xlink:href="#fa-rss"></use></svg></a>
+        </p>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+      lf = new BareFoot();
+      lf.init();
+    </script>
+
+  </body>
+</html>
