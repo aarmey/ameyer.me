@@ -5,9 +5,11 @@ title: Curriculum Vitae
 ### Education
 
 <div class="span_2 right">2014</div>
+
 Ph. D., Biological Engineering, Massachusetts Institute of Technology  
 
 <div class="span_2 right">2009</div>
+
 B.S., Bioengineering, University of California, Los Angeles
 
 ----------------------
@@ -21,16 +23,19 @@ B.S., Bioengineering, University of California, Los Angeles
 ### Research Experience
 
 <div class="span_2 right">2023 – </div>
+
 **Associate Professor**  
 [Meyer](https://asmlab.org) lab  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu), [Bioinformatics IDP](https://bioinformatics.ucla.edu), [QCBio](https://qcb.ucla.edu)
 
 <div class="span_2 right">2017 – 2023</div>
+
 **Assistant Professor**  
 [Meyer](https://asmlab.org) lab  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu), [Bioinformatics IDP](https://bioinformatics.ucla.edu), [QCBio](https://qcb.ucla.edu)
 
 <div class="span_2 right">2014 – 2017</div>
+
 **Principal Investigator & Research Fellow**  
 [Meyer](https://asmlab.org) lab  
 MIT, Koch Institute for Integrative Cancer Research
@@ -56,14 +61,17 @@ MIT, Koch Institute for Integrative Cancer Research
 ### Teaching
 
 <div class="span_2 right">2018 – </div>
+
 **[BE 175/275: Machine learning & data-driven modeling in bioengineering](https://aarmey.github.io/ml-for-bioe/)**  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 <div class="span_2 right">2018 – 2024</div>
+
 **BE 167L: Bioengineering Lab**  
 UCLA, [Department of Bioengineering](https://www.bioeng.ucla.edu)
 
 <div class="span_2 right">2015 – 2016</div>
+
 **[Citizen Science Program](https://citizenscience.bard.edu)**  
 Bard College
 
